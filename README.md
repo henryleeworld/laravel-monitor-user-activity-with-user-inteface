@@ -1,4 +1,4 @@
-# Laravel 8 透過使用者介面查看使用者活動
+# Laravel 9 透過使用者介面查看使用者活動
 
 引入 haruncpi 的 laravel-user-activity 套件來擴增透過使用者介面查看使用者活動，幫助使用美觀，響應迅速且易於使用的使用者介面輕鬆地查看應用程式使用者活動。
 
@@ -16,15 +16,18 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行安裝 package.json 中列出的所有套件。
+```sh
+$ npm install
+```
+- 執行打包所有靜態資源。
+```sh
+$ npm run build
+```
 - 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
 ```sh
 $ php artisan migrate
 ```
-- 執行安裝 Laravel Mix 引用的依賴項目，並執行所有 Mix 任務。
-```sh
-$ npm install && npm run dev
-```
-> 為兼容套件 Laravel 使用者模型，使用者模型同時建立一份在放在 `app` 目錄下
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/register` 來進行註冊。
 - 完成註冊後，可以經由 `/login` 來進行登入。
@@ -33,5 +36,5 @@ $ npm install && npm run dev
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/X6eKGEu.png)
+![](https://i.imgur.com/K0RrYo9.png)
 > 查看使用者登入帳號及存取類型之紀錄
