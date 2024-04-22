@@ -1,4 +1,4 @@
-# Laravel 9 透過使用者介面查看使用者活動
+# Laravel 10 透過使用者介面查看使用者活動
 
 引入 haruncpi 的 laravel-user-activity 套件來擴增透過使用者介面查看使用者活動，幫助使用美觀，響應迅速且易於使用的使用者介面輕鬆地查看應用程式使用者活動。
 
@@ -31,10 +31,10 @@ $ php artisan migrate
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/register` 來進行註冊。
 - 完成註冊後，可以經由 `/login` 來進行登入。
-- 完成登入後，可以經由 `/user/activity` 來進行查看使用者活動。
+- 完成登入後，可以經由 `/user-activity` 來進行查看使用者活動。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/K0RrYo9.png)
+![](https://i.imgur.com/JuNnzky.png)
 > 查看使用者登入帳號及存取類型之紀錄
