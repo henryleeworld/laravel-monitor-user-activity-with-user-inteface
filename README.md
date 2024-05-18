@@ -1,4 +1,4 @@
-# Laravel 10 透過使用者介面查看使用者活動
+# Laravel 11 透過使用者介面查看使用者活動
 
 引入 haruncpi 的 laravel-user-activity 套件來擴增透過使用者介面查看使用者活動，幫助使用美觀，響應迅速且易於使用的使用者介面輕鬆地查看應用程式使用者活動。
 
@@ -36,5 +36,5 @@ $ php artisan migrate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/JuNnzky.png)
+![](https://i.imgur.com/xrheJWc.png)
 > 查看使用者登入帳號及存取類型之紀錄
